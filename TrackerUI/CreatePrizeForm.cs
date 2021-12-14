@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace TrackerUI
 {
-    public partial class CreateTeamForm : Form
+    public partial class CreatePrizeForm : Form
     {
-        public CreateTeamForm()
+        public CreatePrizeForm()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cellPhoneLabel_Click(object sender, EventArgs e)
+        private void firstNameValue_TextChanged(object sender, EventArgs e)
         {
 
         }
